@@ -1,0 +1,2699 @@
+//ky eshte slide 1
+<!DOCTYPE html> 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iphone">
+      <div class="div">
+        <div class="overlap">
+          <img class="image" src="img/image.png" />
+          <div class="overlap-group">
+            <div class="rectangle"></div>
+            <div class="text-wrapper">American Hospital</div>
+          </div>
+          <div class="text-wrapper-2">Home</div>
+          <div class="text-wrapper-3">Services</div>
+          <div class="overlap-2">
+            <img class="img" src="img/rectangle-4.svg" />
+            <img class="rectangle-2" src="img/rectangle-5.svg" />
+            <div class="text-wrapper-4">Login</div>
+            <div class="text-wrapper-5">Register</div>
+          </div>
+        </div>
+        <p class="ne-iau-lehtesojme">
+          <br /><br /><br />Ne iau lehtesojme njerezeve te caktojne nje termin virtualisht
+        </p>
+        <div class="APPOINTMENT-wrapper">
+          <div class="APPOINTMENT">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;APPOINTMENT
+          </div>
+        </div>
+        <div class="FIRST-NAME-wrapper">
+          <div class="FIRST-NAME">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FIRST NAME</div>
+        </div>
+        <div class="LAST-NAME-wrapper">
+          <div class="LAST-NAME">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LAST NAME</div>
+        </div>
+        <div class="EMAIL-wrapper">
+          <div class="EMAIL">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EMAIL</div>
+        </div>
+        <div class="PHONE-NUMBER-wrapper"><div class="PHONE-NUMBER">&nbsp;&nbsp;&nbsp;&nbsp;PHONE NUMBER</div></div>
+        <div class="NIC-wrapper">
+          <div class="NIC">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NIC
+          </div>
+        </div>
+        <div class="DATE-OF-BIRTH-wrapper">
+          <div class="DATE-OF-BIRTH">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DATE OF BIRTH</div>
+        </div>
+        <div class="GENDER-wrapper"><div class="GENDER">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GENDER</div></div>
+        <div class="overlap-3">
+          <div class="rectangle-3"></div>
+          <div class="text-wrapper-6">APPOINTEMENT DATE</div>
+        </div>
+        <div class="overlap-group-2">
+          <div class="rectangle-4"></div>
+          <div class="text-wrapper-7">APPOINTEMENT TIME</div>
+        </div>
+        <div class="DEPARTAMENT-NAME-wrapper">
+          <div class="DEPARTAMENT-NAME">&nbsp;&nbsp;&nbsp;&nbsp;DEPARTAMENT NAME</div>
+        </div>
+        <div class="DOCTOR-NAME-wrapper">
+          <div class="DOCTOR-NAME">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DOCTOR NAME</div>
+        </div>
+        <div class="div-wrapper"><div class="text-wrapper-8">ADDRESS</div></div>
+        <img class="rectangle-5" src="img/rectangle-20.svg" />
+        <img class="image-2" src="img/image-2.png" />
+      </div>
+    </div>
+  </body>
+</html>
+.iphone {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.iphone .div {
+  background-color: #ffffff;
+  width: 393px;
+  height: 852px;
+  position: relative;
+}
+
+.iphone .overlap {
+  position: absolute;
+  width: 393px;
+  height: 43px;
+  top: -2px;
+  left: 0;
+  background-color: #6ac3c7;
+}
+
+.iphone .image {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 2px;
+  left: 0;
+  object-fit: cover;
+}
+
+.iphone .overlap-group {
+  position: absolute;
+  width: 76px;
+  height: 32px;
+  top: 1px;
+  left: 40px;
+}
+
+.iphone .rectangle {
+  position: absolute;
+  width: 76px;
+  height: 31px;
+  top: 1px;
+  left: 0;
+  background-color: #01888d;
+}
+
+.iphone .text-wrapper {
+  position: absolute;
+  width: 57px;
+  top: 0;
+  left: 9px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-2 {
+  position: absolute;
+  width: 38px;
+  top: 5px;
+  left: 120px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-3 {
+  position: absolute;
+  width: 49px;
+  top: 5px;
+  left: 179px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .overlap-2 {
+  position: absolute;
+  width: 155px;
+  height: 27px;
+  top: 5px;
+  left: 232px;
+}
+
+.iphone .img {
+  position: absolute;
+  width: 76px;
+  height: 23px;
+  top: 0;
+  left: 0;
+}
+
+.iphone .rectangle-2 {
+  position: absolute;
+  width: 77px;
+  height: 22px;
+  top: 1px;
+  left: 78px;
+}
+
+.iphone .text-wrapper-4 {
+  position: absolute;
+  width: 72px;
+  top: 3px;
+  left: 17px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-5 {
+  position: absolute;
+  width: 61px;
+  top: 2px;
+  left: 89px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone .ne-iau-lehtesojme {
+  position: absolute;
+  width: 173px;
+  top: 43px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .APPOINTMENT-wrapper {
+  position: absolute;
+  width: 177px;
+  height: 20px;
+  top: 264px;
+  left: 9px;
+  background-color: #025658;
+}
+
+.iphone .APPOINTMENT {
+  position: absolute;
+  width: 168px;
+  top: 1px;
+  left: 2px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .FIRST-NAME-wrapper {
+  position: absolute;
+  width: 155px;
+  height: 24px;
+  top: 306px;
+  left: 4px;
+  background-image: url(./img/rectangle-8.svg);
+  background-size: 100% 100%;
+}
+
+.iphone .FIRST-NAME {
+  position: absolute;
+  width: 145px;
+  top: 3px;
+  left: 4px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone .LAST-NAME-wrapper {
+  position: absolute;
+  width: 155px;
+  height: 24px;
+  top: 306px;
+  left: 222px;
+  background-image: url(./img/rectangle-9.svg);
+  background-size: 100% 100%;
+}
+
+.iphone .LAST-NAME {
+  position: absolute;
+  width: 147px;
+  top: 3px;
+  left: 4px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone .EMAIL-wrapper {
+  position: absolute;
+  width: 155px;
+  height: 24px;
+  top: 357px;
+  left: 4px;
+  background-image: url(./img/rectangle-10.svg);
+  background-size: 100% 100%;
+}
+
+.iphone .EMAIL {
+  position: absolute;
+  width: 129px;
+  top: 3px;
+  left: 12px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .PHONE-NUMBER-wrapper {
+  position: absolute;
+  width: 155px;
+  height: 24px;
+  top: 356px;
+  left: 222px;
+  background-image: url(./img/rectangle-11.svg);
+  background-size: 100% 100%;
+}
+
+.iphone .PHONE-NUMBER {
+  position: absolute;
+  width: 131px;
+  top: 1px;
+  left: 10px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .NIC-wrapper {
+  position: absolute;
+  width: 155px;
+  height: 24px;
+  top: 408px;
+  left: 4px;
+  background-image: url(./img/rectangle-12.svg);
+  background-size: 100% 100%;
+}
+
+.iphone .NIC {
+  position: absolute;
+  width: 134px;
+  top: 4px;
+  left: 7px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone .DATE-OF-BIRTH-wrapper {
+  position: absolute;
+  width: 155px;
+  height: 24px;
+  top: 408px;
+  left: 222px;
+  background-image: url(./img/rectangle-13.svg);
+  background-size: 100% 100%;
+}
+
+.iphone .DATE-OF-BIRTH {
+  position: absolute;
+  width: 139px;
+  top: 3px;
+  left: 7px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .GENDER-wrapper {
+  position: absolute;
+  width: 116px;
+  height: 25px;
+  top: 459px;
+  left: 9px;
+}
+
+.iphone .GENDER {
+  position: absolute;
+  width: 105px;
+  top: 6px;
+  left: 5px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.iphone .overlap-3 {
+  position: absolute;
+  width: 104px;
+  height: 27px;
+  top: 457px;
+  left: 139px;
+}
+
+.iphone .rectangle-3 {
+  position: absolute;
+  width: 104px;
+  height: 25px;
+  top: 2px;
+  left: 0;
+  background-color: #799798;
+}
+
+.iphone .text-wrapper-6 {
+  width: 98px;
+  left: 6px;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .overlap-group-2 {
+  position: absolute;
+  width: 112px;
+  height: 27px;
+  top: 457px;
+  left: 256px;
+}
+
+.iphone .rectangle-4 {
+  position: absolute;
+  width: 112px;
+  height: 25px;
+  top: 2px;
+  left: 0;
+  background-color: #799798;
+}
+
+.iphone .text-wrapper-7 {
+  width: 111px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .DEPARTAMENT-NAME-wrapper {
+  position: absolute;
+  width: 180px;
+  height: 28px;
+  top: 518px;
+  left: 9px;
+  background-color: #778c8c;
+}
+
+.iphone .DEPARTAMENT-NAME {
+  position: absolute;
+  width: 180px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .DOCTOR-NAME-wrapper {
+  position: absolute;
+  width: 180px;
+  height: 26px;
+  top: 518px;
+  left: 197px;
+  background-color: #778c8c;
+}
+
+.iphone .DOCTOR-NAME {
+  position: absolute;
+  width: 180px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .div-wrapper {
+  position: absolute;
+  width: 363px;
+  height: 84px;
+  top: 570px;
+  left: 14px;
+  background-color: #778c8c;
+}
+
+.iphone .text-wrapper-8 {
+  position: absolute;
+  width: 231px;
+  top: 1px;
+  left: 2px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .rectangle-5 {
+  position: absolute;
+  width: 376px;
+  height: 168px;
+  top: 656px;
+  left: 9px;
+}
+
+.iphone .image-2 {
+  position: absolute;
+  width: 202px;
+  height: 198px;
+  top: 41px;
+  left: 191px;
+  object-fit: cover;
+}
+
+//ky eshte slide 2
+<!DOCTYPE html>  / 
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iphone">
+      <div class="div">
+        <div class="overlap">
+          <div class="overlap-group">
+            <div class="overlap-2">
+              <div class="rectangle"></div>
+              <img class="image" src="img/image.png" />
+              <img class="img" src="img/image-2-2.png" />
+              <div class="text-wrapper">STAFF</div>
+              <img class="image-2" src="img/image-2.png" />
+              <div class="text-wrapper-2">LAB</div>
+              <img class="image-3" src="img/image-3.png" />
+              <div class="text-wrapper-3">WARD</div>
+              <img class="image-4" src="img/image-4.png" />
+              <div class="text-wrapper-4">TREATMENT</div>
+              <div class="text-wrapper-5">DASHBOARD</div>
+              <img class="image-5" src="img/image-5.png" />
+              <div class="text-wrapper-6">PHARMACY</div>
+              <img class="image-6" src="img/image-6-2.png" />
+              <div class="text-wrapper-7">PATIENT</div>
+              <div class="rectangle-2"></div>
+              <div class="text-wrapper-8">QTY</div>
+            </div>
+            <div class="text-wrapper-9">SUPPLIER MENAGMENT</div>
+            <div class="overlap-3">
+              <img class="rectangle-3" src="img/rectangle-4.svg" />
+              <div class="text-wrapper-10">GENNERATE REPORT</div>
+              <div class="rectangle-4"></div>
+              <div class="text-wrapper-11">SUPPLIER ID</div>
+            </div>
+            <div class="overlap-4">
+              <div class="rectangle-5"></div>
+              <div class="text-wrapper-12">SUPPLIER NAME</div>
+            </div>
+            <div class="overlap-5">
+              <div class="rectangle-6"></div>
+              <div class="rectangle-7"></div>
+              <div class="text-wrapper-13">CONTACT NUMBER</div>
+            </div>
+            <div class="overlap-6">
+              <img class="rectangle-8" src="img/rectangle-14.svg" />
+              <div class="ADD">&nbsp;&nbsp;&nbsp;&nbsp; ADD</div>
+            </div>
+            <div class="overlap-7">
+              <img class="rectangle-9" src="img/rectangle-15.svg" />
+              <div class="DELETE">&nbsp;&nbsp; DELETE</div>
+            </div>
+          </div>
+          <div class="div-wrapper"><div class="text-wrapper-14">LOCATION</div></div>
+          <div class="overlap-8"><div class="text-wrapper-15">MEDICINE NAME</div></div>
+          <div class="overlap-9">
+            <div class="rectangle-10"></div>
+            <div class="rectangle-11"></div>
+            <div class="text-wrapper-16">UNIT PRICE</div>
+          </div>
+          <div class="overlap-10"><div class="text-wrapper-17">UPDATE</div></div>
+        </div>
+        <div class="image-wrapper"><img class="image-7" src="img/image-6.png" /></div>
+        <div class="overlap-11">
+          <img class="image-8" src="img/image-7.png" />
+          <div class="text-wrapper-18">AMERICAN HOSPITAL</div>
+          <img class="image-9" src="img/image-8.png" />
+          <div class="text-wrapper-19">SIGN OUT</div>
+          <img class="image-10" src="img/image-9.png" />
+          <div class="text-wrapper-20">ANNE</div>
+        </div>
+        <div class="text-wrapper-21">RECENT SUPLIER</div>
+        <div class="navbar">
+          <div class="ID">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID</div>
+          <div class="text-wrapper-22">MEDICCINE NAME</div>
+          <div class="text-wrapper-23">SUPPLIER NAME</div>
+          <div class="text-wrapper-24">UNIT ORICE</div>
+        </div>
+        <div class="overlap-12">
+          <img class="rectangle-12" src="img/rectangle-18.svg" />
+          <div class="element">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1</div>
+          <div class="VITAMIN-c">VITAMIN&nbsp;&nbsp;C</div>
+          <div class="text-wrapper-25">ANNE</div>
+          <div class="text-wrapper-26">20.00€</div>
+        </div>
+        <div class="overlap-13">
+          <div class="element-2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2</div>
+          <div class="text-wrapper-27">VITAMIN C</div>
+          <div class="text-wrapper-28">ANNE</div>
+          <div class="text-wrapper-26">20.00€</div>
+        </div>
+        <div class="overlap-14">
+          <div class="element-3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3</div>
+          <div class="text-wrapper-29">VITAMIN C</div>
+          <div class="text-wrapper-30">ANNE</div>
+          <div class="text-wrapper-31">20.00€</div>
+        </div>
+        <div class="overlap-15">
+          <img class="rectangle-13" src="img/rectangle-21.svg" />
+          <div class="element-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4</div>
+          <div class="text-wrapper-32">VITAMIN C</div>
+          <div class="text-wrapper-33">ANNE</div>
+          <div class="text-wrapper-34">20.00€</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+.iphone {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.iphone .div {
+  background-color: #ffffff;
+  width: 393px;
+  height: 852px;
+  position: relative;
+}
+
+.iphone .overlap {
+  position: absolute;
+  width: 382px;
+  height: 303px;
+  top: 36px;
+  left: 0;
+}
+
+.iphone .overlap-group {
+  position: absolute;
+  width: 377px;
+  height: 303px;
+  top: 0;
+  left: 0;
+}
+
+.iphone .overlap-2 {
+  position: absolute;
+  width: 228px;
+  height: 303px;
+  top: 0;
+  left: 0;
+}
+
+.iphone .rectangle {
+  position: absolute;
+  width: 108px;
+  height: 303px;
+  top: 0;
+  left: 0;
+  background-color: #438e9c;
+}
+
+.iphone .image {
+  position: absolute;
+  width: 26px;
+  height: 24px;
+  top: 5px;
+  left: 0;
+  object-fit: cover;
+}
+
+.iphone .img {
+  width: 28px;
+  height: 19px;
+  top: 49px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.iphone .text-wrapper {
+  position: absolute;
+  width: 64px;
+  top: 48px;
+  left: 33px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #f5f5f5;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .image-2 {
+  width: 28px;
+  height: 19px;
+  top: 87px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.iphone .text-wrapper-2 {
+  position: absolute;
+  width: 54px;
+  top: 86px;
+  left: 33px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .image-3 {
+  width: 30px;
+  height: 28px;
+  top: 122px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.iphone .text-wrapper-3 {
+  position: absolute;
+  width: 57px;
+  top: 131px;
+  left: 34px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .image-4 {
+  width: 24px;
+  height: 26px;
+  top: 173px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.iphone .text-wrapper-4 {
+  position: absolute;
+  width: 75px;
+  top: 174px;
+  left: 29px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-5 {
+  position: absolute;
+  width: 78px;
+  top: 5px;
+  left: 26px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .image-5 {
+  width: 24px;
+  height: 19px;
+  top: 222px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.iphone .text-wrapper-6 {
+  position: absolute;
+  width: 77px;
+  top: 220px;
+  left: 27px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .image-6 {
+  width: 29px;
+  height: 27px;
+  top: 268px;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+}
+
+.iphone .text-wrapper-7 {
+  position: absolute;
+  width: 64px;
+  top: 267px;
+  left: 30px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .rectangle-2 {
+  position: absolute;
+  width: 121px;
+  height: 29px;
+  top: 203px;
+  left: 107px;
+  background-color: #2f6a76;
+}
+
+.iphone .text-wrapper-8 {
+  position: absolute;
+  width: 120px;
+  top: 204px;
+  left: 107px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-9 {
+  width: 160px;
+  top: 13px;
+  left: 117px;
+  color: #000000;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .overlap-3 {
+  position: absolute;
+  width: 269px;
+  height: 31px;
+  top: 47px;
+  left: 108px;
+}
+
+.iphone .rectangle-3 {
+  position: absolute;
+  width: 146px;
+  height: 31px;
+  top: 0;
+  left: 0;
+}
+
+.iphone .text-wrapper-10 {
+  position: absolute;
+  width: 147px;
+  top: 6px;
+  left: 13px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .rectangle-4 {
+  position: absolute;
+  width: 112px;
+  height: 25px;
+  top: 2px;
+  left: 157px;
+  background-color: #2f6974;
+}
+
+.iphone .text-wrapper-11 {
+  width: 110px;
+  top: 2px;
+  left: 159px;
+  color: #ffffff;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .overlap-4 {
+  position: absolute;
+  width: 125px;
+  height: 28px;
+  top: 97px;
+  left: 108px;
+}
+
+.iphone .rectangle-5 {
+  position: absolute;
+  width: 119px;
+  height: 27px;
+  top: 0;
+  left: 0;
+  background-color: #204951;
+}
+
+.iphone .text-wrapper-12 {
+  width: 118px;
+  top: 4px;
+  left: 7px;
+  color: #ffffff;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .overlap-5 {
+  position: absolute;
+  width: 120px;
+  height: 27px;
+  top: 146px;
+  left: 108px;
+}
+
+.iphone .rectangle-6 {
+  position: absolute;
+  width: 2px;
+  height: 1px;
+  top: 3px;
+  left: 5px;
+  background-color: #d9d9d9;
+}
+
+.iphone .rectangle-7 {
+  position: absolute;
+  width: 120px;
+  height: 27px;
+  top: 0;
+  left: 0;
+  background-color: #2f6974;
+}
+
+.iphone .text-wrapper-13 {
+  position: absolute;
+  width: 116px;
+  top: 1px;
+  left: 3px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .overlap-6 {
+  position: absolute;
+  width: 87px;
+  height: 26px;
+  top: 277px;
+  left: 110px;
+}
+
+.iphone .rectangle-8 {
+  position: absolute;
+  width: 74px;
+  height: 26px;
+  top: 0;
+  left: 0;
+}
+
+.iphone .ADD {
+  position: absolute;
+  width: 83px;
+  top: 2px;
+  left: 4px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .overlap-7 {
+  position: absolute;
+  width: 65px;
+  height: 26px;
+  top: 277px;
+  left: 197px;
+}
+
+.iphone .rectangle-9 {
+  position: absolute;
+  width: 64px;
+  height: 26px;
+  top: 0;
+  left: 1px;
+}
+
+.iphone .DELETE {
+  position: absolute;
+  width: 65px;
+  top: 2px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .div-wrapper {
+  position: absolute;
+  width: 124px;
+  height: 29px;
+  top: 95px;
+  left: 244px;
+  background-color: #306c77;
+}
+
+.iphone .text-wrapper-14 {
+  position: absolute;
+  width: 122px;
+  top: 0;
+  left: 2px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .overlap-8 {
+  position: absolute;
+  width: 133px;
+  height: 27px;
+  top: 146px;
+  left: 235px;
+  background-color: #306c78;
+}
+
+.iphone .text-wrapper-15 {
+  position: absolute;
+  width: 130px;
+  top: 0;
+  left: 3px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .overlap-9 {
+  position: absolute;
+  width: 149px;
+  height: 29px;
+  top: 204px;
+  left: 233px;
+}
+
+.iphone .rectangle-10 {
+  position: absolute;
+  width: 149px;
+  height: 28px;
+  top: 0;
+  left: 0;
+  background-color: #306b77;
+}
+
+.iphone .rectangle-11 {
+  position: absolute;
+  width: 29px;
+  height: 28px;
+  top: 1px;
+  left: 0;
+  background-color: #090909;
+}
+
+.iphone .text-wrapper-16 {
+  position: absolute;
+  width: 117px;
+  top: 0;
+  left: 32px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .overlap-10 {
+  position: absolute;
+  width: 74px;
+  height: 26px;
+  top: 277px;
+  left: 282px;
+  background-image: url(./img/rectangle-16.svg);
+  background-size: 100% 100%;
+}
+
+.iphone .text-wrapper-17 {
+  position: absolute;
+  width: 64px;
+  top: 1px;
+  left: 5px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .image-wrapper {
+  position: absolute;
+  width: 54px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  background-color: #438e9c;
+}
+
+.iphone .image-7 {
+  width: 33px;
+  height: 33px;
+  top: 1px;
+  left: 7px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.iphone .overlap-11 {
+  position: absolute;
+  width: 339px;
+  height: 36px;
+  top: 0;
+  left: 54px;
+}
+
+.iphone .image-8 {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  top: 4px;
+  left: 96px;
+  object-fit: cover;
+}
+
+.iphone .text-wrapper-18 {
+  position: absolute;
+  width: 128px;
+  top: 7px;
+  left: 124px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .image-9 {
+  width: 19px;
+  height: 19px;
+  top: 6px;
+  left: 6px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.iphone .text-wrapper-19 {
+  position: absolute;
+  width: 62px;
+  top: 4px;
+  left: 30px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .image-10 {
+  width: 21px;
+  height: 19px;
+  top: 7px;
+  left: 252px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.iphone .text-wrapper-20 {
+  width: 53px;
+  top: 9px;
+  left: 280px;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-21 {
+  position: absolute;
+  width: 147px;
+  top: 364px;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .navbar {
+  position: absolute;
+  width: 393px;
+  height: 35px;
+  top: 397px;
+  left: 0;
+  background-image: url(./img/rectangle-17.svg);
+  background-size: 100% 100%;
+}
+
+.iphone .ID {
+  position: absolute;
+  width: 50px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-22 {
+  position: absolute;
+  width: 104px;
+  top: 0;
+  left: 71px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-23 {
+  position: absolute;
+  width: 90px;
+  top: 0;
+  left: 181px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-24 {
+  position: absolute;
+  width: 70px;
+  top: 0;
+  left: 284px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .overlap-12 {
+  position: absolute;
+  width: 393px;
+  height: 36px;
+  top: 453px;
+  left: 0;
+}
+
+.iphone .rectangle-12 {
+  position: absolute;
+  width: 393px;
+  height: 35px;
+  top: 1px;
+  left: 0;
+}
+
+.iphone .element {
+  width: 38px;
+  top: 5px;
+  position: absolute;
+  left: 8px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .VITAMIN-c {
+  position: absolute;
+  width: 100px;
+  top: 0;
+  left: 72px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-25 {
+  width: 75px;
+  top: 2px;
+  left: 180px;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-26 {
+  position: absolute;
+  width: 82px;
+  top: 3px;
+  left: 284px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .overlap-13 {
+  position: absolute;
+  width: 393px;
+  height: 35px;
+  top: 511px;
+  left: 0;
+  background-image: url(./img/rectangle-19.svg);
+  background-size: 100% 100%;
+}
+
+.iphone .element-2 {
+  width: 42px;
+  top: 3px;
+  position: absolute;
+  left: 8px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-27 {
+  top: 1px;
+  left: 71px;
+  position: absolute;
+  width: 89px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-28 {
+  width: 75px;
+  top: 2px;
+  left: 181px;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .overlap-14 {
+  position: absolute;
+  width: 393px;
+  height: 35px;
+  top: 568px;
+  left: 0;
+  background-image: url(./img/rectangle-20.svg);
+  background-size: 100% 100%;
+}
+
+.iphone .element-3 {
+  width: 42px;
+  top: 1px;
+  position: absolute;
+  left: 8px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-29 {
+  top: 6px;
+  left: 72px;
+  position: absolute;
+  width: 89px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-30 {
+  width: 75px;
+  top: 6px;
+  left: 180px;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-31 {
+  top: 5px;
+  position: absolute;
+  width: 82px;
+  left: 284px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .overlap-15 {
+  position: absolute;
+  width: 393px;
+  height: 41px;
+  top: 635px;
+  left: 0;
+}
+
+.iphone .rectangle-13 {
+  position: absolute;
+  width: 393px;
+  height: 35px;
+  top: 2px;
+  left: 0;
+}
+
+.iphone .element-4 {
+  width: 42px;
+  top: 0;
+  position: absolute;
+  left: 8px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-32 {
+  top: 7px;
+  left: 71px;
+  position: absolute;
+  width: 89px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-33 {
+  width: 75px;
+  top: 12px;
+  left: 180px;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-34 {
+  top: 1px;
+  position: absolute;
+  width: 82px;
+  left: 284px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+
+//ky eshte slide 3 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="iphone">
+      <div class="div">
+        <div class="overlap"><img class="image" src="img/image-8.png" /></div>
+        <div class="overlap-group">
+          <div class="overlap-2">
+            <div class="overlap-3">
+              <div class="rectangle"></div>
+              <img class="img" src="img/image.png" />
+              <img class="image-2" src="img/image-2-2.png" />
+              <img class="image-3" src="img/image-2.png" />
+              <img class="image-4" src="img/image-3.png" />
+              <img class="image-5" src="img/image-4.png" />
+              <img class="image-6" src="img/image-5.png" />
+              <img class="image-7" src="img/image-6.png" />
+              <div class="text-wrapper">DASHBOARD</div>
+              <div class="text-wrapper-2">STAFF</div>
+              <div class="text-wrapper-3">LAB</div>
+              <div class="text-wrapper-4">WARD</div>
+              <div class="text-wrapper-5">TREATMENT</div>
+              <div class="text-wrapper-6">PHARMACY</div>
+              <div class="text-wrapper-7">PATIENT</div>
+              <div class="rectangle-2"></div>
+              <div class="text-wrapper-8">EMAIL</div>
+            </div>
+            <div class="div-wrapper"><div class="text-wrapper-9">Paitent Menaggment</div></div>
+            <div class="overlap-group-2"><div class="text-wrapper-10">Generate report</div></div>
+            <div class="overlap-4">
+              <div class="rectangle-3"></div>
+              <div class="text-wrapper-11">FIRST NAME</div>
+            </div>
+            <div class="overlap-5"><div class="text-wrapper-12">PATIENT ID</div></div>
+            <div class="overlap-6"><div class="text-wrapper-13">NIC</div></div>
+          </div>
+          <div class="overlap-7">
+            <div class="rectangle-3"></div>
+            <div class="text-wrapper-11">LAST NAME</div>
+          </div>
+          <div class="overlap-8">
+            <div class="rectangle-4"></div>
+            <div class="text-wrapper-14">MOBILE NUMBER</div>
+          </div>
+          <div class="overlap-9"><div class="text-wrapper-15">SEARCH</div></div>
+          <div class="overlap-10"><div class="text-wrapper-16">DATE OF BIRTH</div></div>
+        </div>
+        <div class="overlap-11">
+          <div class="rectangle-5"></div>
+          <img class="image-8" src="img/image-8-2.png" />
+          <div class="text-wrapper-17">SIGN OUT</div>
+          <img class="image-9" src="img/image-7.png" />
+          <div class="text-wrapper-18">AMERICAN HOSPITAL</div>
+          <img class="image-10" src="img/image-9.png" />
+          <div class="text-wrapper-19">ANNE</div>
+        </div>
+        <div class="overlap-12"><div class="text-wrapper-20">ADD</div></div>
+        <div class="overlap-13"><div class="text-wrapper-21">ADRESS</div></div>
+        <div class="overlap-14">
+          <div class="rectangle-6"></div>
+          <div class="text-wrapper-22">GENDER</div>
+        </div>
+        <div class="overlap-15">
+          <div class="rectangle-7"></div>
+          <div class="rectangle-8"></div>
+          <div class="text-wrapper-23">PASSWORD</div>
+          <div class="text-wrapper-24">CONFIRM PASSWORD</div>
+        </div>
+        <div class="overlap-16">
+          <div class="rectangle-9"></div>
+          <div class="UPDATE">&nbsp;&nbsp;&nbsp;&nbsp;UPDATE</div>
+        </div>
+        <div class="overlap-17">
+          <div class="rectangle-10"></div>
+          <div class="text-wrapper-25">DELETE</div>
+        </div>
+        <div class="overlap-18">
+          <div class="rectangle-11"></div>
+          <div class="rectangle-12"></div>
+          <div class="rectangle-13"></div>
+          <div class="text-wrapper-26">RECENT PAITENTS</div>
+          <div class="ID-NAME-SURNAME">
+            ID&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            NAME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            SURNAME&nbsp;&nbsp;BIRTHDAY&nbsp;&nbsp;&nbsp;&nbsp; GENDER
+          </div>
+          <div class="rectangle-14"></div>
+          <div class="rectangle-15"></div>
+          <div class="text-wrapper-27">4</div>
+          <div class="text-wrapper-28">1</div>
+          <div class="text-wrapper-29">2</div>
+          <div class="text-wrapper-30">3</div>
+          <div class="text-wrapper-31">5</div>
+          <div class="text-wrapper-32">ANNE</div>
+          <div class="text-wrapper-33">ANNE</div>
+          <div class="text-wrapper-34">ANNE</div>
+          <div class="text-wrapper-35">ANNE</div>
+          <div class="text-wrapper-36">ANNE</div>
+          <div class="text-wrapper-37">FRANK</div>
+          <div class="text-wrapper-38">FRANK</div>
+          <div class="text-wrapper-39">FRANK</div>
+          <div class="text-wrapper-40">FRANK</div>
+          <div class="text-wrapper-41">FRANK</div>
+          <div class="text-wrapper-42">17.09.1979</div>
+          <div class="text-wrapper-43">17.09.1979</div>
+          <div class="text-wrapper-44">17.09.1979</div>
+          <div class="text-wrapper-45">17.09.1979</div>
+          <div class="text-wrapper-46">17.09.1979</div>
+          <div class="text-wrapper-47">FEMALE</div>
+          <div class="text-wrapper-48">FEMALE</div>
+          <div class="text-wrapper-49">FEMALE</div>
+          <div class="text-wrapper-50">FEMALE</div>
+          <div class="text-wrapper-51">FEMALE</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+.i-phone-16-1,
+.i-phone-16-1 * {
+  box-sizing: border-box;
+}
+.i-phone-16-1 {
+  background: #ffffff;
+  height: 852px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-2 {
+  background: #448e9d;
+  width: 54px;
+  height: 36px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.rectangle-1 {
+  background: #448e9d;
+  width: 102px;
+  height: 303px;
+  position: absolute;
+  left: 1px;
+  top: 36px;
+}
+.image {
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  left: 10px;
+  top: 0px;
+  object-fit: cover;
+}
+.image2 {
+  width: 26px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  object-fit: cover;
+}
+.image-2 {
+  width: 28px;
+  height: 19px;
+  position: absolute;
+  left: 0px;
+  top: 91px;
+  object-fit: cover;
+  aspect-ratio: 28/19;
+}
+.image3 {
+  width: 28px;
+  height: 19px;
+  position: absolute;
+  left: 0px;
+  top: 127px;
+  object-fit: cover;
+}
+.image-3 {
+  border-radius: 20px;
+  width: 32px;
+  height: 28px;
+  position: absolute;
+  left: 1px;
+  top: 163px;
+  object-fit: cover;
+  aspect-ratio: 32/28;
+}
+.image-4 {
+  width: 24px;
+  height: 26px;
+  position: absolute;
+  left: 1px;
+  top: 208px;
+  object-fit: cover;
+  aspect-ratio: 24/26;
+}
+.image-5 {
+  width: 24px;
+  height: 19px;
+  position: absolute;
+  left: 1px;
+  top: 251px;
+  object-fit: cover;
+  aspect-ratio: 24/19;
+}
+.image-6 {
+  width: 31px;
+  height: 27px;
+  position: absolute;
+  left: 0px;
+  top: 287px;
+  object-fit: cover;
+  aspect-ratio: 31/27;
+}
+.dashboard {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 25px;
+  top: 50px;
+  width: 78px;
+  height: 19px;
+}
+.staff {
+  color: #f5f5f5;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 33px;
+  top: 91px;
+  width: 64px;
+  height: 19px;
+}
+.lab {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 33px;
+  top: 127px;
+  width: 54px;
+  height: 15px;
+}
+.ward {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 169px;
+  width: 57px;
+  height: 15px;
+}
+.treatment {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 31px;
+  top: 213px;
+  width: 75px;
+  height: 21px;
+}
+.pharmacy {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 36px;
+  top: 251px;
+  width: 77px;
+  height: 20px;
+}
+.patient {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 37px;
+  top: 289px;
+  width: 64px;
+  height: 27px;
+}
+.rectangle-3 {
+  background: #336a76;
+  width: 338px;
+  height: 36px;
+  position: absolute;
+  left: 55px;
+  top: 0px;
+}
+.image-8 {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 60px;
+  top: 7px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.sign-out {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 85px;
+  top: 10px;
+  width: 62px;
+  height: 16px;
+}
+.image-7 {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 153px;
+  top: 0px;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+.american-hospital {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 197px;
+  top: 7px;
+  width: 128px;
+  height: 15px;
+}
+.image-9 {
+  width: 21px;
+  height: 19px;
+  position: absolute;
+  left: 325px;
+  top: 4px;
+  object-fit: cover;
+  aspect-ratio: 21/19;
+}
+.anne {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 346px;
+  top: 7px;
+  width: 53px;
+  height: 16px;
+}
+.rectangle-4 {
+  background: #2e616b;
+  width: 288px;
+  height: 51px;
+  position: absolute;
+  left: 105px;
+  top: 40px;
+}
+.paitent-menaggment {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 113px;
+  top: 45px;
+  width: 274px;
+  height: 46px;
+}
+.rectangle-20 {
+  background: #56992a;
+  width: 72px;
+  height: 31px;
+  position: absolute;
+  left: 113px;
+  top: 483px;
+}
+.rectangle-6 {
+  width: 122px;
+  height: 39px;
+  position: absolute;
+  left: 103px;
+  top: 101px;
+  overflow: visible;
+}
+.generate-report {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 106px;
+  top: 110px;
+  width: 103px;
+  height: 28px;
+}
+.rectangle-7 {
+  background: #d9d9d9;
+  width: 136px;
+  height: 37px;
+  position: absolute;
+  left: 106px;
+  top: 160px;
+}
+.rectangle-8 {
+  background: #d9d9d9;
+  width: 136px;
+  height: 37px;
+  position: absolute;
+  left: 257px;
+  top: 160px;
+}
+.rectangle-9 {
+  background: #d9d9d9;
+  width: 136px;
+  height: 37px;
+  position: absolute;
+  left: 106px;
+  top: 226px;
+}
+.rectangle-10 {
+  background: #d9d9d9;
+  width: 136px;
+  height: 37px;
+  position: absolute;
+  left: 257px;
+  top: 226px;
+}
+.rectangle-11 {
+  background: #d9d9d9;
+  width: 88px;
+  height: 37px;
+  position: absolute;
+  left: 225px;
+  top: 101px;
+}
+.rectangle-12 {
+  width: 72.7px;
+  height: 37px;
+  position: absolute;
+  left: 320px;
+  top: 102px;
+  overflow: visible;
+}
+.search {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 326px;
+  top: 108px;
+  width: 61px;
+  height: 27px;
+}
+.patient-id {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 228px;
+  top: 105px;
+  width: 85px;
+  height: 30px;
+}
+.first-name {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 105px;
+  top: 161px;
+  width: 137px;
+  height: 36px;
+}
+.last-name {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 256px;
+  top: 161px;
+  width: 137px;
+  height: 36px;
+}
+.email {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 105px;
+  top: 233px;
+  width: 133px;
+  height: 28px;
+}
+.mobile-number {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 258px;
+  top: 226px;
+  width: 135px;
+  height: 35px;
+}
+.rectangle-13 {
+  background: #d9d9d9;
+  width: 136px;
+  height: 37px;
+  position: absolute;
+  left: 106px;
+  top: 297px;
+}
+.rectangle-14 {
+  background: #d9d9d9;
+  width: 136px;
+  height: 37px;
+  position: absolute;
+  left: 256px;
+  top: 297px;
+}
+.rectangle-15 {
+  background: #d9d9d9;
+  width: 282px;
+  height: 56px;
+  position: absolute;
+  left: 105px;
+  top: 363px;
+}
+.rectangle-132 {
+  background: #d9d9d9;
+  width: 94px;
+  height: 37px;
+  position: absolute;
+  left: 106px;
+  top: 431px;
+}
+.rectangle-16 {
+  background: #d9d9d9;
+  width: 94px;
+  height: 37px;
+  position: absolute;
+  left: 203px;
+  top: 431px;
+}
+.rectangle-133 {
+  background: #d9d9d9;
+  width: 94px;
+  height: 37px;
+  position: absolute;
+  left: 300px;
+  top: 430px;
+}
+.nic {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 108px;
+  top: 298px;
+  width: 130px;
+  height: 36px;
+}
+.date-of-birth {
+  color: #171616;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 257px;
+  top: 300px;
+  width: 130px;
+  height: 34px;
+}
+.adress {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 105px;
+  top: 367px;
+  width: 137px;
+  height: 24px;
+}
+.gender {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 109px;
+  top: 441px;
+  width: 88px;
+  height: 29px;
+}
+.password {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 213px;
+  top: 442px;
+  width: 100px;
+  height: 42px;
+}
+.confirm-password {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 306px;
+  top: 433px;
+  width: 88px;
+  height: 41px;
+}
+.rectangle-18 {
+  background: #4d33a3;
+  width: 72px;
+  height: 31px;
+  position: absolute;
+  left: 202px;
+  top: 483px;
+}
+.rectangle-19 {
+  background: #d92e1b;
+  width: 72px;
+  height: 31px;
+  position: absolute;
+  left: 288px;
+  top: 483px;
+}
+.add {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 114px;
+  top: 487px;
+  width: 71px;
+  height: 27px;
+}
+.update {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 197px;
+  top: 485px;
+  width: 77px;
+  height: 29px;
+}
+.delete {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 286px;
+  top: 485px;
+  width: 74px;
+  height: 29px;
+}
+.rectangle-21 {
+  background: #d9d9d9;
+  width: 394px;
+  height: 299px;
+  position: absolute;
+  left: -2px;
+  top: 556px;
+}
+.rectangle-22 {
+  background: #999999;
+  width: 394px;
+  height: 39px;
+  position: absolute;
+  left: -1px;
+  top: 619px;
+}
+.rectangle-23 {
+  background: #999999;
+  width: 401px;
+  height: 34px;
+  position: absolute;
+  left: 0px;
+  top: 553px;
+}
+.recent-paitents {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 6px;
+  top: 561px;
+}
+.id-name-surname-birthday-gender {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: -12px;
+  top: 620px;
+  width: 394px;
+  height: 38px;
+}
+.rectangle-24 {
+  background: #999999;
+  width: 394px;
+  height: 39px;
+  position: absolute;
+  left: -2px;
+  top: 691px;
+}
+.rectangle-25 {
+  background: #999999;
+  width: 394px;
+  height: 39px;
+  position: absolute;
+  left: -2px;
+  top: 770px;
+}
+._4 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 11px;
+  top: 787px;
+}
+._1 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 12px;
+  top: 679px;
+}
+._2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 9px;
+  top: 712px;
+}
+._3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 10px;
+  top: 749px;
+}
+._5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 17px;
+  top: 832px;
+}
+.anne2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 44px;
+  top: 676px;
+  width: 49px;
+  height: 15px;
+}
+.anne3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 703px;
+  width: 49px;
+  height: 15px;
+}
+.anne4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 44px;
+  top: 746px;
+  width: 49px;
+  height: 15px;
+}
+.anne5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 40px;
+  top: 780px;
+  width: 49px;
+  height: 15px;
+}
+.anne6 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 44px;
+  top: 824px;
+  width: 49px;
+  height: 15px;
+}
+.frank {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 125px;
+  top: 672px;
+  width: 78px;
+  height: 19px;
+}
+.frank2 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 125px;
+  top: 699px;
+  width: 78px;
+  height: 19px;
+}
+.frank3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 122px;
+  top: 742px;
+  width: 78px;
+  height: 19px;
+}
+.frank4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 125px;
+  top: 784px;
+  width: 78px;
+  height: 19px;
+}
+.frank5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 119px;
+  top: 823px;
+  width: 78px;
+  height: 19px;
+}
+._17-09-1979 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 205px;
+  top: 667px;
+  width: 77px;
+  height: 23px;
+}
+._17-09-19792 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 200px;
+  top: 704px;
+  width: 77px;
+  height: 23px;
+}
+._17-09-19793 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 200px;
+  top: 739px;
+  width: 77px;
+  height: 23px;
+}
+._17-09-19794 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 201px;
+  top: 784px;
+  width: 77px;
+  height: 23px;
+}
+._17-09-19795 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 202px;
+  top: 821px;
+  width: 77px;
+  height: 23px;
+}
+.female {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 277px;
+  top: 671px;
+  width: 70px;
+  height: 17px;
+}
+.female2 {
+  color: #131212;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 281px;
+  top: 706px;
+  width: 86px;
+  height: 21px;
+}
+.female3 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 276px;
+  top: 735px;
+  width: 73px;
+  height: 23px;
+}
+.female4 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 276px;
+  top: 776px;
+  width: 73px;
+  height: 23px;
+}
+.female5 {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 271px;
+  top: 819px;
+  width: 73px;
+  height: 23px;
+}
+
+
+//ky eshte slide i fundit 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="globals.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="iphone">
+        <div class="overlap-group-wrapper">
+            <div class="overlap-group">
+                <div class="rectangle"></div>
+                <img class="image" src="img/image.png">
+                <div class="div"></div>
+                <p class="PATIENT-HAS-BEEN">PATIENT-HAS-BEEN&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <img class="img" src="img/rectangle_4.svg">
+                <div class="text-wrapper-2">DONE</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
